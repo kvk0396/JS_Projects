@@ -1,0 +1,26 @@
+body{
+    background-color:lightblue;
+    margin: 50px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+p{
+    margin-bottom: 50px;
+}
+.btn{
+    margin-left: 80px;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 10px;
+}
+#weight-guide{
+    margin-left: 80px;
+}
+#results{
+    padding: 20px;
+    margin-right: 50px;
+    font-size: large;
+}
