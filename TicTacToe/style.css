@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=DM+Sans:opsz@9..40&family=Delius&family=Merriweather:wght@700&family=Noto+Serif:ital,wght@1,700&family=Poppins&family=Roboto:wght@300;400&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+.cell{
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+    font-size: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    cursor: pointer;
+}
+#gameContainer{
+    text-align: center;
+    font-family:  'Delius', cursive;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartBtn{
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 20%;
+    font-size: 20px;
+}
